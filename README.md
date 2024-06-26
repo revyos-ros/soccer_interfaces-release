@@ -1,34 +1,7 @@
-# soccer_interfaces
-A set of packages which contain common soccer interface files
+# soccer_vision_2d_msgs
 
-[![Build and Test (humble)](../../actions/workflows/build_and_test_humble.yaml/badge.svg?branch=humble)](../../actions/workflows/build_and_test_humble.yaml?query=branch:humble)
-[![Build and Test (iron)](../../actions/workflows/build_and_test_iron.yaml/badge.svg?branch=rolling)](../../actions/workflows/build_and_test_iron.yaml?query=branch:rolling)
-[![Build and Test (rolling)](../../actions/workflows/build_and_test_rolling.yaml/badge.svg?branch=rolling)](../../actions/workflows/build_and_test_rolling.yaml?query=branch:rolling)
-
-## Installation
-
-### Binary Installation
-
-Binary installation is available. Source your ROS installation, then run:
-
-```
-sudo apt install ros-${ROS_DISTRO}-soccer-interfaces
-```
-
-### Source Installation
-
-Alternatively to build from source, source your ROS installation, then run the following in your ROS workspace:
-
-```
-// For ROS 2 Iron / Rolling
-git clone https://github.com/ros-sports/soccer_interfaces.git src/soccer_interfaces
-colcon build
-
-// For ROS 2 Humble
-git clone https://github.com/ros-sports/soccer_interfaces.git src/soccer_interfaces --branch humble
-colcon build
-```
+This package provides 2d messages for visually detected objects on a soccer field, such as balls, field markings and robots.
 
 ## Documentation
 
-For documentation, see [Soccer Interfaces](https://soccer-interfaces.readthedocs.io/en/latest/).
+For documentation, see [Soccer Vision 2D Msgs](https://soccer-interfaces.readthedocs.io/en/latest/soccer_vision_2d_msgs.html).
