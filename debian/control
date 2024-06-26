@@ -1,0 +1,12 @@
+Source: ros-jazzy-soccer-interfaces
+Section: misc
+Priority: optional
+Maintainer: ijnek <kenjibrameld@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake, ros-jazzy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-soccer-interfaces
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-soccer-vision-2d-msgs, ros-jazzy-soccer-vision-3d-msgs, ros-jazzy-soccer-vision-attribute-msgs, ros-jazzy-ros-workspace
+Description: Metapackage for soccer-related interfaces
