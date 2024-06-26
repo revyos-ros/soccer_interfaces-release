@@ -1,3 +1,4 @@
+release_repo_url: git@github.com:revyos-ros/soccer_interfaces-release
 tracks:
   humble:
     actions:
