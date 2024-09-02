@@ -1,0 +1,12 @@
+Source: ros-humble-soccer-interfaces
+Section: misc
+Priority: optional
+Maintainer: ijnek <kenjibrameld@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-soccer-interfaces
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-soccer-vision-2d-msgs, ros-humble-soccer-vision-3d-msgs, ros-humble-soccer-vision-attribute-msgs, ros-humble-ros-workspace
+Description: Metapackage for soccer-related interfaces
