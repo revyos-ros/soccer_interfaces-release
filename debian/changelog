@@ -1,0 +1,14 @@
+ros-humble-soccer-vision-attribute-msgs (0.1.0-1bookworm) bookworm; urgency=high
+
+
+
+ -- ijnek <kenjibrameld@gmail.com>  Mon, 13 Jun 2022 16:00:00 -0000
+
+ros-humble-soccer-vision-attribute-msgs (0.0.1-1bookworm) bookworm; urgency=high
+
+  * Initial soccer vision attribute msgs package, including Confidence.msg, Goalpost.msg, Robot.msg
+  * Contributors: Kenji Brameld
+
+ -- ijnek <kenjibrameld@gmail.com>  Fri, 15 Apr 2022 16:00:00 -0000
+
+
